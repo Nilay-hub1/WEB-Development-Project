@@ -1,0 +1,351 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  background-color: #1a1717;
+  font-family: 'Varela', sans-serif;
+}
+.head{
+  color: white;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  align-items: center;
+}
+.navbar{
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.navbar a{
+  text-decoration: none;
+  color: white;
+}
+#contact-page{
+  display: flex;
+  right: 0%;
+  position: absolute;
+  float: right;
+  margin-right: 15px;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 110px;
+  height: 22px;
+  align-items:center ;
+  justify-content: center;
+  background-color: rgb(99, 99, 99);
+}
+#apply-page{
+  display: flex;
+  margin-right: 15px;
+  position: relative;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 90px;
+  height: 22px;
+  align-items:center ;
+  justify-content: center;
+  background-color: rgb(99, 99, 99);
+}
+#index-page{
+  display: flex;
+  position: absolute;
+  float: left;
+  left: 0%;
+  justify-content: center;
+  font-size: 16px;
+  margin-left: 15px;
+  width: 75px;
+  height: 22px;
+  align-items:center ;
+  border-radius: 10px;
+  background-color: rgb(99, 99, 99);
+}
+.gtu_logo{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 10px;
+}
+.gtu_logo img{
+  height: 4rem;
+  width: 3rem;
+  
+}
+.dic_logo{
+  position: absolute;
+  top: 0%;
+  right: 0.5%;
+}
+.dic_logo img{
+  height: 4rem;
+  width: 4rem;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  background: #e2e2e2;
+  border-radius: 12px;
+  padding: 20px;
+  width: 70%;
+  height: fit-content;
+  font-family: 'Varela', sans-serif;
+}
+.objective-main{
+  display: flex;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#index-page{
+  cursor: pointer;
+  display: flex;
+  /* position: relative; */
+  transition: 0.5s;
+}
+
+#index-page:after {
+    display: flex;
+  content: '«';
+  justify-content: center;
+  align-items:center  ;
+  position: absolute;
+  opacity: 0;  
+  left: -20px;
+  transition: 0.5s;
+}
+
+#index-page:hover{
+  padding-left: 24px;
+  padding-right:8px;
+}
+
+#index-page:hover:after {
+  opacity: 1;
+  left: 10px;
+}
+#contact-page{
+  cursor: pointer;
+  display: flex;
+  transition: 0.5s;
+}
+
+#contact-page:after {
+    display: flex;
+  content: '»';
+  justify-content: center;
+  align-items:center  ;
+  position: absolute;
+  opacity: 0;  
+  right: -20px;
+  transition: 0.5s;
+}
+
+#contact-page:hover{
+  padding-left: 8px;
+  padding-right:24px;
+}
+
+#contact-page:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+#apply-page{
+  cursor: pointer;
+  display: flex;
+  transition: 0.5s;
+}
+
+#apply-page:after {
+    display: flex;
+  content: '»';
+  justify-content: center;
+  align-items:center  ;
+  position: absolute;
+  opacity: 0;  
+  right: -20px;
+  transition: 0.5s;
+}
+
+#apply-page:hover{
+  padding-left: 8px;
+  padding-right:24px;
+}
+
+#apply-page:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+#concept-page{
+  display: flex;
+  position: absolute;
+  float: left;
+  left: 0%;
+  justify-content: center;
+  font-size: 16px;
+  margin-left: 15px;
+  width: 110px;
+  height: 24px;
+  align-items:center ;
+  border-radius: 10px;
+  background-color: rgb(99, 99, 99);
+}
+
+#concept-page{
+  cursor: pointer;
+  display: flex;
+  /* position: relative; */
+  transition: 0.5s;
+}
+
+#concept-page:after {
+    display: flex;
+  content: '«';
+  justify-content: center;
+  align-items:center  ;
+  position: absolute;
+  opacity: 0;  
+  left: -20px;
+  transition: 0.5s;
+}
+
+#concept-page:hover{
+  padding-left: 24px;
+  padding-right:8px;
+}
+
+#concept-page:hover:after {
+  opacity: 1;
+  left: 10px;
+}
+#team-page{
+  display: flex;
+  right: 0%;
+  position: absolute;
+  float: right;
+  margin-right: 15px;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 80px;
+  height: 24px;
+  align-items:center ;
+  justify-content: center;
+  background-color: rgb(99, 99, 99);
+}
+#team-page{
+  cursor: pointer;
+  display: flex;
+  transition: 0.5s;
+}
+
+#team-page:after {
+    display: flex;
+  content: '»';
+  justify-content: center;
+  align-items:center  ;
+  position: absolute;
+  opacity: 0;  
+  right: -20px;
+  transition: 0.5s;
+}
+
+#team-page:hover{
+  padding-left: 8px;
+  padding-right:24px;
+}
+
+#team-page:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+.info a{
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 497px){
+  .head h1{
+    font-size: 25px;
+  }
+  .gtu_logo{
+    display: flex;
+    align-items: center;
+   }
+   .gtu_logo img {
+    height: 3rem;
+    width: 2rem;
+    padding-left: 10px;
+      /* padding-top: 18px; ; */
+   }
+   .dic_logo{
+    display: flex;
+    align-items: center;
+}
+.dic_logo img {
+ height: 3rem;
+ width: 2rem;
+
+}
+  .main{
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+  }
+  .info{
+    padding: 20px;
+    margin-top: 50px;
+  }
+  .info ul{
+    font-size: 10px;
+  }
+  #team-page{
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  #concept-page{
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  #apply-page{
+    font-size: 14px;
+  }
+  #contact-page{
+    font-size: 14px;
+}
+  #index-page{
+    font-size: 14px;
+  }
+  #index-page:hover{
+    background: tomato;
+   } 
+  #apply-page:hover{
+    background: tomato;
+   } 
+  #contact-page:hover{
+    background: tomato;
+   } 
+  #concept-page:hover{
+    background: tomato;
+   } 
+  #team-page:hover{
+    background: tomato;
+   } 
+  #team-page:after{
+    display: none;
+  }
+  #concept-page:after{
+    display: none;
+  }
+  #apply-page:after{
+display: none;
+  }
+  #contact-page:after{
+  display: none;
+}
+  #index-page:after{ 
+display: none;
+  }
+}

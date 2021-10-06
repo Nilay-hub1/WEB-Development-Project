@@ -1,0 +1,263 @@
+   body {
+       margin: 0;
+       padding: 0;
+       height: 100%;
+       width: 100%;
+       background-color: #1a1a1a;
+       font-family: 'Varela', sans-serif;
+       
+   }
+   
+   .Head {
+       display: flex;
+       justify-content: center;
+       height: 137px;
+       width: auto;
+       /* margin-bottom: 3.25rem; */
+       padding: 2rem;
+       padding-left: 119px;
+       font-weight: bold;
+   }
+   
+   .gtu_logo img {
+    height: 7rem;
+    width: 5rem;
+      padding-top: 18px; ;
+   }
+   
+   .name {
+       display: flex;
+       flex-direction: column;
+       width: 41rem;
+       padding: 1rem;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .dic_logo img {
+    height: 9rem;
+    width: 7rem;
+  
+   }
+   
+   .GTU_name {
+       color: rgb(0, 17, 255);
+       font-size: 27px;
+       /* padding-bottom: 8px; */
+   }
+   
+   .name p {
+       font-size: 1.4rem;
+       margin-top: 0%;
+       margin-bottom: 0%;
+   }
+   
+   .DIC_name {
+       color: white;
+   }
+   
+   .navbar {
+       width: 100%;
+       margin: 0 auto;
+      
+       font-weight: bold;
+       font-size: 25px;
+       
+   }   
+   .navbar ul {
+       list-style: none;
+       margin-top: 0.5%;
+       display: flex;
+       z-index: 100;
+       padding-inline-start: 0px;
+   } 
+   .navbar ul li {
+       background: #ca003b;
+       width: 100%;
+       height: 50px;
+       line-height: 50px;
+       text-align: center;
+       position: relative;
+       font-size: 14px;    
+   }
+   .navbar ul li a{
+       text-decoration: none;
+       color: black;
+      
+   }
+   .link-container{
+       height: 100%;
+       width: 100%;
+   }
+   .navbar ul ul {
+       display: none;
+       margin-top: 0%;
+       /* display: block;
+       padding-inline-start: 0px;
+       opacity: .89; */
+   }
+   .navbar ul ul li {
+    text-decoration: none;
+    
+}
+   .navbar ul li:hover {
+       background-color: rgb(232, 255, 255);
+       
+   } 
+   .navbar ul li:hover>ul {
+       
+       display: block;
+       
+       padding-inline-start: 0px;
+       opacity: .89;
+      
+       
+   }  
+  .swiper-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #1a1a1a;
+      height: 300px;
+      width: 500px;
+      z-index: 0;
+      padding: 50px;
+  }
+  .swiper-slide{
+      
+    display: flex;
+    
+      background-size: cover;
+  }
+  footer{
+      height: 20vh;
+      display: flex;
+      flex-direction: column;
+      /* position: ; */
+      justify-content: center;
+      align-items: center;
+      color: white;
+      width: auto;
+      flex: 1;
+  }
+  #footer-date{
+    position: relative;  
+    right: 0%;}
+
+ @media only screen and (max-width: 497px) {
+        .Head {
+            font-family: 'Raleway', sans-serif;
+               display: flex;
+               justify-content: center;
+               height: 100px;
+               width: auto;
+               padding: 0%;
+               /* padding-left: 119px; */
+               font-family: 'Varela', sans-serif;
+               font-weight: bold;
+           }
+           .gtu_logo{
+            display: flex;
+            align-items: center;
+           }
+           .gtu_logo img {
+            height: 3rem;
+            width: 2rem;
+            padding-left: 10px;
+              /* padding-top: 18px; ; */
+           }
+           
+           .name {
+               display: flex;
+               flex-direction: column;
+               width: 20rem;
+               padding: 1rem;
+               justify-content: center;
+               align-items: center;
+           }
+           .dic_logo{
+               display: flex;
+               align-items: center;
+           }
+           .dic_logo img {
+            height: 3rem;
+            width: 2rem;
+          
+           }
+           .GTU_name {
+            color: rgb(0, 17, 255);
+            font-size: 15px;
+            /* padding-bottom: 8px; */
+        }
+        
+        .name p {
+            font-size: 12px;
+            margin-top: 0%;
+            margin-bottom: 0%;
+        }
+        
+          .slider{
+              height: 540px;
+              width: 100%;
+              display: flex;
+              flex: 1;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            
+          }
+        .swiper-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #1a1a1a;
+            height: 200px;
+            width: 250px;
+            z-index: 0;
+            padding: 50px;
+        }
+        .swiper-slide{
+      
+            display: flex;
+            
+              background-size: cover;
+          }
+          .navbar ul li {
+            background: #ca003b;
+            width: 100%;
+            height: 30px;
+            line-height: 32px;
+            text-align: center;
+            position: relative;
+            font-size: 10px;    
+        }
+        footer{
+            height: 20vh;
+            display: flex;
+            flex-direction: column;
+            /* position: ; */
+            justify-content: center;
+            align-items: center;
+            color: white;
+            width: auto;
+            flex: 1;
+            font-size: 13px;
+        }
+       .swiper-button-prev{
+            display: none !important;
+        }
+        .swiper-button-next{
+            display: none !important;
+        }
+    }
+    .swiper-wrapper{
+        background-color: #1a1a1a;
+        z-index: 2;
+    }
+    .Container{
+        position : relative;
+    }
+    .swiper-container{
+       background-color: #1a1a1a;
+       z-index: 1;    
+    }

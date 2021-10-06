@@ -1,0 +1,253 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #1a1717;
+    font-family: 'Varela', sans-serif;
+}
+.head{
+    color: white;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+.gtu_logo{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 10px;
+}
+.gtu_logo img{
+    height: 4rem;
+    width: 3rem;
+    
+}
+form button {
+    width: 85px;
+    padding: 8px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0px 12px 0px 12px;
+    border: none;
+    margin: 8px;
+}
+.dic_logo{
+    position: absolute;
+    top: 0%;
+    right: 0.5%;
+}
+.dic_logo img{
+    height: 4rem;
+    width: 4rem;
+}
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+#apply-page{
+    display: flex;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 80px;
+    height: 22px;
+    align-items:center ;
+    justify-content: center;
+    background-color: rgb(99, 99, 99);
+}
+#index-page{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin-left: 15px;
+    width: 75px;
+    height: 22px;
+    align-items:center ;
+    border-radius: 10px;
+    background-color: rgb(99, 99, 99);
+}
+.contact-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    /* flex: 1; */
+}
+.contact-box img{
+    height: 100px;
+    width: 100px;
+    /* margin: 12px; */
+}
+#facebook img{
+    width: 140px;
+}
+.card {
+    text-decoration: none;
+    color:white ;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(99, 99, 99);
+    border-radius: 13px;
+    box-shadow: 0px 0px 10px 3px black;
+}
+
+.link a{
+    text-decoration: none;
+}
+.mail-phone{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+.mail-phone div{
+    font-size: 22px;
+    /* width: 20rem; */
+    float: left;
+    padding: 10px;
+}
+#index-page{
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    transition: 0.5s;
+} 
+  #index-page:after {
+      display: flex;
+    content: '«';
+    justify-content: center;
+    align-items:center  ;
+    position: absolute;
+    opacity: 0;  
+    left: -20px;
+    transition: 0.5s;
+}  
+  #index-page:hover{
+    padding-left: 24px;
+    padding-right:8px;
+} 
+  #index-page:hover:after {
+    opacity: 1;
+    left: 10px;
+}
+  #apply-page{
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    transition: 0.5s;
+} 
+  #apply-page:after {
+      display: flex;
+    content: '«';
+    justify-content: center;
+    align-items:center  ;
+    position: absolute;
+    opacity: 0;  
+    left: -20px;
+    transition: 0.5s;
+} 
+  #apply-page:hover{
+    padding-left: 24px;
+    padding-right:8px;
+} 
+  #apply-page:hover:after {
+    opacity: 1;
+    left: 10px;
+}
+.card img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+
+}
+@media only screen and (max-width: 497px){
+    .head h1{
+        font-size: 25px;
+    }
+    #index-page{
+        font-size: 14px;
+    }
+    #apply-page{
+        font-size: 14px;
+    }
+    .card {
+        text-decoration: none;
+        color:white ;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(99, 99, 99);
+        border-radius: 13px;
+        box-shadow: 0px 0px 10px 3px black;
+    }
+    .contact-box img{
+        height: 40px;
+        width: 40px;
+        /* margin: 12px; */
+    }
+    #facebook img{
+        width: 60px;
+    }
+    .mail-phone div{
+        font-size: 18px;
+        float: left;
+        padding: 10px;
+    }
+    .gtu_logo{
+        display: flex;
+        align-items: center;
+       }
+       .gtu_logo img {
+        height: 3rem;
+        width: 2rem;
+        padding-left: 10px;
+          /* padding-top: 18px; ; */
+       }
+       .dic_logo{
+        display: flex;
+        align-items: center;
+    }
+    .dic_logo img {
+     height: 3rem;
+     width: 2rem;
+    }
+    #apply-page:after {
+        display:none;
+  } 
+    #apply-page:hover{
+      background: tomato;
+    }
+
+ #index-page:hover{
+   background: tomato;
+} 
+  #index-page:after {
+   display: none;
+}
+ 
+    
+    
+    
+}
+
+
+
+ 
